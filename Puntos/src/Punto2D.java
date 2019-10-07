@@ -10,6 +10,14 @@ public class Punto2D implements Cloneable {
 			this.setX(x);
 			this.setY(y);
 		}
+		
+		
+
+		public Punto2D() {
+			super();
+		}
+
+
 
 		public double getX() {
 			return x;
